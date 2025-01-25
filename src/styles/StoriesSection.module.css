@@ -1,0 +1,24 @@
+.storiesGrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 48px;
+  width: 100%;
+}
+
+@media (max-width: 640px) {
+  .storiesGrid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding:0px 24px;
+  }
+  
+}
+@media (max-width: 991px) {
+  .storiesGrid{
+    padding: 0px 31px;
+  }
+  .story{
+        align-items: center;
+        justify-content: center;
+  }
+}
