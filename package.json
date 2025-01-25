@@ -1,6 +1,7 @@
 {
   "name": "kamal_task",
   "private": true,
+  "homepage": "https://kamalsoni000.github.io/figma_task/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
